@@ -31,7 +31,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 
 
 ## How to Run
-1. Clone the repo: `git clone https://github.com/Gutshere/java-practice-programs`
+1. Clone the repo: `git clone https://github.com/rajeshkhub/java-practice-programs`
 2. Open in any Java IDE (Eclipse, IntelliJ, VS Code)
 3. Run the file you want
 
