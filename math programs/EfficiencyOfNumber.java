@@ -7,9 +7,11 @@ public class EfficiencyOfNumber {
 		System.out.println("Enter the arry size : ");
 		int size=sc.nextInt();
 		int box[] = new int[size];
+		System.out.println("Enter elements :");
 		for(int i=0;i<size;i++) {
 			box[i]=sc.nextInt();
 		}
+		sc.close();
 		for(int i=0;i<box.length;i++) {
 			if(box[i]==-1) continue;
 			int count =1;
