@@ -7,12 +7,14 @@ class VowelCount {
 			String word1 = sc.nextLine();
 			String word2 = word1.toLowerCase();
 			int count = 0;
-			char[] a = word2.toCharArray();
-			for(char b : a) {
-				if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u') {
+			char[] a = word2.toCharArray();       //String becomes characters of array
+
+			for(char b : a) {                                               //for each loop
+				if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u') {         
 				c++;
 				}
 				else {}}
+		
 			System.out.println("Number of vowels in the given string : "+count);
 			sc.close();
 	}
