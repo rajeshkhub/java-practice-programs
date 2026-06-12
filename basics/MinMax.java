@@ -34,5 +34,6 @@ public class MinMax {
 			System.out.println("\nMin of the array : "+min); break;}
 			else {System.out.println("Invalid input!");}
 		}
+		sc.close();
 	}
 }
