@@ -6,6 +6,7 @@ public class ReverseString {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a string : ");
 		String word = sc.nextLine();
+		sc.close();
 		StringBuilder sb = new StringBuilder(word); //StringBuilder
 		System.out.print("Now your string is in reverse gear : ");
 		
