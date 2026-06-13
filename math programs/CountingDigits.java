@@ -5,12 +5,13 @@ public class CountingDigits {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your number : ");
-		//or 
+		int num = sc.nextInt();
+		// using string method
 		/*
 		 * String a = sc.next();
 		 * System.out.println("Number of digits in the number are : "+a.length());
 		 */
-		int num = sc.nextInt();
+		sc.close();
 		int length = String.valueOf(num).length();
 		System.out.println("No.of digits : "+length);
 	}
