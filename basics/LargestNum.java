@@ -17,10 +17,11 @@ public class LargestNum {
                      else if(num2 > num3){ System.out.println("The largest number among them is : "+num2);}
                      else if(num1 == num2 && num2 == num3){ System.out.println("All numbers are equal.");}
                      else{ System.out.println("The largest number among them is : "+num3);}
+					break;
 			  }
-              catch(InputMismatchException e) { System.out.println("Invalid input!");}
-			   
-             sc.next();
+              catch(InputMismatchException e) { System.out.println("Invalid input!");
+             sc.next();}
 		   }
+		sc.close();
 	}
 }
