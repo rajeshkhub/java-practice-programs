@@ -11,6 +11,7 @@ public class SecondLargeNum {
 		for(int i=0;i<size;i++) {
 			arr[i]=sc.nextInt();
 		}
+		sc.close();
 		int firstMax=arr[0];
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]>firstMax) {
