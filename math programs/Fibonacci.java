@@ -5,6 +5,7 @@ public class Fibonacci {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter how many terms :");
 		int terms = sc.nextInt();
+		sc.close();
 		int num = 2;
 		int first = 0;
 		int second = 1;
