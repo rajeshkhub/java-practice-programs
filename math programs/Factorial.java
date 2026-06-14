@@ -6,6 +6,7 @@ public class Factorial {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number : ");
 		int num = sc.nextInt();
+		sc.close();
 		if(num <= 1) {
 			System.out.println("The factorial of "+num+" is : 1");
 		}
