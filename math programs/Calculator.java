@@ -25,9 +25,10 @@ public class Calculator {
 		case 5: System.out.println("Result : "+(num1%num2));
 		break;
 		}
-						 }
+		break;	 }
 		catch(InputMismatchException w) {System.out.println("invalid input!");
 		sc.next();}
-					}
+		}
+		sc.close();
 	}
 }
