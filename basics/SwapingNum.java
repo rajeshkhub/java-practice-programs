@@ -14,8 +14,12 @@ public class SwapingNum {
 		int temp = num1;
 		num1 = num2;
 		num2 = temp;
-		System.out.println("After swapping\na is : "+num1);
-		System.out.println("b is : "+num2);
+			// OR
+			//num1 += num2;
+			//num2 = num1 - num2;
+			//num1 = num1 - num2;
+		System.out.println("After swapping\nFirst number is : "+num1);
+		System.out.println("Second number is : "+num2);
 		System.out.println("Do you want to continue ? (yes/no)");
 		String answer = sc.next();
 		if(answer.equalsIgnoreCase("yes")) {
