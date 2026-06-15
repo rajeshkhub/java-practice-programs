@@ -6,7 +6,7 @@ public class FindingNum {
                Scanner sc = new Scanner(System.in);
 		
                System.out.println("Enter the array size : ");
-		
+		        
                int size = sc.nextInt();
                int array[] = new int[size];
 		
@@ -25,6 +25,7 @@ public class FindingNum {
 		
                int element = sc.nextInt();
                boolean found = true;
+		       //finding wanted number in the array
                for(int i=0;i<array.length;i++) {
 	                     if(element == array[i]) {
 		                         System.out.println("Element found at index : "+i);
