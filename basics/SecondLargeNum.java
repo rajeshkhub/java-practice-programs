@@ -13,14 +13,17 @@ public class SecondLargeNum {
 		}
 		sc.close();
 		int firstMax=arr[0];
+		//finding first maximum number
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]>firstMax) {
-				firstMax=arr[i];}}
+				firstMax=arr[i];}} 
+		//Removing first maximum number from array
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]==firstMax) {
 				arr[i]-=firstMax;
 			}
 		}
+		//finding current maximum number in the array
 		int secondMax=arr[0];
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]>secondMax) {
