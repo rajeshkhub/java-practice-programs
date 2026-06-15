@@ -17,6 +17,7 @@ public class MinMax {
 		}
 		while(true) {
 			System.out.println("\nChoose your option : \n1. Maximum element \n2. Minimum element");
+			//MAX
 			int choice = sc.nextInt();
 			if(choice == 1) { int max=arr[0];
 			for(int i=0;i<arr.length;i++) {
@@ -25,6 +26,7 @@ public class MinMax {
 				}
 			}
 			System.out.println("\nMax of the array : "+max); break;}
+				//MIN
 			else if(choice == 2) {int min=arr[0];
 			for(int i=0;i<arr.length;i++) {
 				if(arr[i]<min) {
