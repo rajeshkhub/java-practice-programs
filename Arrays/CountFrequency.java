@@ -1,5 +1,5 @@
 import java.util.*;
-public class EfficiencyOfNumber {
+public class CountFrequency {
 
 	public static void main(String[] args) {
 		
