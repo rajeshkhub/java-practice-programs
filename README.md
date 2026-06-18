@@ -7,28 +7,31 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 ### Basics
 | File                    ---> What it does                                                      |
 |------------------------------------------------------------------------------------------------|
-| FindingNum.java         ---> Finds the number in an array and returns the index of the number. |
-| SwapingNum.java         ---> Swaps two numbers.                                                |
+| Calculator.java         ---> Performs calculations on two numbers.                             |
 | LargestNum.java         ---> Finds largest number in an array.                                 |
-| MinMax.java             ---> Returns minimum / maximum number in an array.                     |
-| SecondLargeNum.java     ---> Finds second largest number in an array.                          |
+| SwapingNum.java         ---> Swaps two numbers.                                                |
 
 ### Strings
 | File                    ---> What it does                                                      |
 |------------------------------------------------------------------------------------------------|
-| VowelCount.java         ---> Counts vowels in a string.                                        |
+| CountingDigits.java     ---> Counts number of digits in a number.                              |
 | ReverseString.java      ---> Returns string after reversing.                                   |
+| VowelCount.java         ---> Counts vowels in a string.                                        |
 
-### Math programs
+### Loops
 | File                    ---> What it does                                                      |
 |------------------------------------------------------------------------------------------------|
-| Fibonacci.java          ---> Prints Fibonacci sequence up to n terms.                          |
 | Factorial.java          ---> Calculates factorial using a loop.                                |
+| Fibonacci.java          ---> Prints Fibonacci sequence up to n terms.                          |
 | SumOfDigits.java        ---> Finds sum of digits of a number.                                  |
-| Calculator.java         ---> Performs calculations on two numbers.                             |
-| CountingDigits.java     ---> Counts number of digits in a number.                              |
-| EfficiencyOfNumber.java ---> Counts number of occurence of a number.                           |
 
+### Arrays
+| File                    ---> What it does                                                      |
+|------------------------------------------------------------------------------------------------|
+| CountFrequency.java     ---> Counts number of occurence of a number.                           |
+| LinearSearch.java       ---> Finds the number in an array and returns the index of the number. |
+| MinMax.java             ---> Returns minimum / maximum number in an array.                     |
+| SecondLargeNum.java     ---> Finds second largest number in an array.                          |
 
 ## How to Run
 1. Clone the repo: `git clone https://github.com/rajeshkhub/java-practice-programs`
