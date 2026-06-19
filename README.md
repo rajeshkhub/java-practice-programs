@@ -9,7 +9,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 |------------------------------------------------------------------------------------------------|
 | Calculator.java         ---> Performs calculations on two numbers.                             |
 | LargestNum.java         ---> Finds largest number in an array.                                 |
-| OddEven.java            ---> Finds given number is Odd Or Even number.                         |
+| OddEven.java            ---> Checks whether given number is Odd Or Even number.                |
 | PrimeNum.java           ---> Checks whether a number is prime or not.                          |
 | SwapingNum.java         ---> Swaps two numbers.                                                |
 
