@@ -1,4 +1,3 @@
-package ippo;
 import java.util.*;
 public class PalindromeNum {
 
@@ -8,14 +7,14 @@ public class PalindromeNum {
 		System.out.println("Enter a number : ");
 		int num = sc.nextInt();
 		int temp = num;
-		int num2 = 0;
+		int reverse = 0;
 		sc.close();
 		while(num > 0) {
-			int num3 = num % 10;
-			num2 = num2 * 10 + num3;
+			int digit = num % 10;
+			reverse = reverse * 10 + digit;
 			num /= 10;
 		}
-		String result = (temp == num2) ? "a Palindrome" : "not a Palindrome";
+		String result = (temp == reverse) ? "a Palindrome" : "not a Palindrome";
 		System.out.println("Given number is "+result);
 		
 	}
