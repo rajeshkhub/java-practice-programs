@@ -1,7 +1,7 @@
 import java.util.*;
 public class Fibonacci {
 	public static void main(String[] args) {
-		
+		// Gives n number of Fibonacci series number.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter how many terms :");
 		int terms = sc.nextInt();
@@ -11,7 +11,7 @@ public class Fibonacci {
 		int second = 1;
 		System.out.print("The fibonacci sequence : "+first+" "+second+" ");
 		while(1 < num && num <= terms-1) {
-			int temp =first+second;
+			int temp = first+second;
 			first = second;
 			second = temp;
 			System.out.print(temp+" ");
