@@ -1,33 +1,34 @@
 import java.util.*;
 public class SecondLargeNum {
-
 	public static void main(String[] args) {
-		
+		//Finds second largest number in the array but finding first largest number and removing it.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter array size : ");
 		int size = sc.nextInt();
-		int arr[]= new int[size];
+		int array[] = new int[size];
 		System.out.println("Enter array elements : ");
-		for(int i=0;i<size;i++) {
-			arr[i]=sc.nextInt();
+		for(int i = 0; i < size;i++) {
+			array[i] = sc.nextInt();
 		}
 		sc.close();
-		int firstMax=arr[0];
+		int firstMax = array[0];
 		//finding first maximum number
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i]>firstMax) {
-				firstMax=arr[i];}} 
+		for(int i = 0; i < array.length;i++) {
+			if(array[i] > firstMax) {
+				firstMax = array[i];
+			}
+		} 
 		//Removing first maximum number from array
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i]==firstMax) {
-				arr[i]-=firstMax;
+		for(int i = 0 ; i < array.length;i++) {
+			if(array[i] == firstMax) {
+				array[i] -= firstMax;
 			}
 		}
 		//finding current maximum number in the array
-		int secondMax=arr[0];
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i]>secondMax) {
-				secondMax=arr[i];
+		int secondMax = array[0];
+		for(int i = 0 ; i < array.length;i++) {
+			if(array[i] > secondMax) {
+				secondMax = array[i];
 			}
 		}
 		System.out.println("The second largest number is : "+secondMax);
