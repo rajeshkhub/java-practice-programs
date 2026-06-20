@@ -1,8 +1,7 @@
 import java.util.*;
 public class Factorial {
-
 	public static void main(String[] args) {
-		
+		// Returns factorial of a number.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number : ");
 		int num = sc.nextInt();
