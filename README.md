@@ -25,6 +25,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 |------------------------------------------------------------------------------------------------|
 | Factorial.java          ---> Calculates factorial using a loop.                                |
 | Fibonacci.java          ---> Prints Fibonacci sequence up to n terms.                          |
+| PalindromeNum.java      ---> Checks whether a number is Palindrome number or not.              |
 | SumOfDigits.java        ---> Finds sum of digits of a number.                                  |
 
 ### Arrays
