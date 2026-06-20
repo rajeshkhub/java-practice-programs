@@ -9,8 +9,11 @@ public class Fibonacci {
 		int num = 2;
 		int first = 0;
 		int second = 1;
-		System.out.print("The fibonacci sequence : "+first+" "+second+" ");
-		while(1 < num && num <= terms-1) {
+		if(terms == 1){
+			System.out.print("The fibonacci sequence : "+first);
+		}
+		else System.out.print("The fibonacci sequence : "+first+" "+second+" ");
+		while(num <= terms-1) {
 			int temp = first+second;
 			first = second;
 			second = temp;
