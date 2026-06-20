@@ -1,8 +1,7 @@
 import java.util.*;
 public class CountFrequency {
-
 	public static void main(String[] args) {
-		
+		// Counts the number of occurrence of each element in a array.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the arry size : ");
 		int size=sc.nextInt();
