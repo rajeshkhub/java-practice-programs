@@ -1,9 +1,8 @@
 import java.util.*;
 import java.util.InputMismatchException;
 public class SwapingNum {
-
 	public static void main(String[] args) {
-		
+		// Swaps two numbers using a temporary variable or by calculation.
 		Scanner sc = new Scanner(System.in);
 		while(true) { try {
 		System.out.print("Enter your first number : ");
