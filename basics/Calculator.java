@@ -1,7 +1,7 @@
 import java.util.*;
 public class Calculator {
 	public static void main(String[] args) {
-		
+		// Calculates two numbers using arithmetic operators.
 		Scanner sc = new Scanner(System.in);
 		while(true) {try {System.out.println("Enter two numbers : ");
 		int num1 = sc.nextInt();
@@ -13,18 +13,20 @@ public class Calculator {
 		if(choice >= 1 && choice <= 5) {break;}
 		else {System.out.println("Invalid input!");}
 		}
+		int result = 0;
 		switch(choice) {
-		case 1: System.out.println("Result : "+(num1+num2));
+		case 1: result = num1+num2;
 		break;
-		case 2: System.out.println("Result : "+(num1-num2));
+		case 2: result = num1-num2;
 		break;
-		case 3: System.out.println("Result : "+(num1*num2));
+		case 3: result = num1*num2;
 		break;
-		case 4: System.out.println("Result : "+(num1/num2));
+		case 4: result = num1/num2;
 		break;
-		case 5: System.out.println("Result : "+(num1%num2));
+		case 5: result = num1%num2;
 		break;
 		}
+		System.out.println("Result : "+result);
 		break;	 }
 		catch(InputMismatchException w) {System.out.println("invalid input!");
 		sc.next();}
