@@ -5,7 +5,7 @@ This folder contains Java programs that focus on repetition, iteration, and numb
 ## Problems Practiced
 * Factorial
 * Fibonacci Series
-* * Palindrome Number
+* Palindrome Number
 * Sum of Digits
   
 ## Concepts Covered
