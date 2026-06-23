@@ -12,8 +12,11 @@ This folder contains Java programs that help build a strong foundation in array 
    * Array Traversal
    * Element Comparison
    * Searching Algorithms
-   * Sorting Algorithms
    * Frequency Counting
+   * Duplicate Detection
+   * Finding Maximum & Minimum Elements
+   * Finding Second Largest Element
+   * Nested Loop Array Processing
    * Problem Solving and Logic Building
 
 ## Goal
