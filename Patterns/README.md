@@ -2,7 +2,7 @@
 
 This folder contains pattern programs created to improve understanding of loops.
 
-##Concepts practiced
+## Concepts practiced
 *Pyramid pattern
 
 ## Topics Covered
