@@ -1,11 +1,11 @@
-# Java Patterns
+# Patterns
 
 This folder contains pattern programs created to improve understanding of loops.
 
-## Concepts Practiced
+## Topics Covered
 * Pyramid pattern
 
-## Topics Covered
+## Concepts Practiced
 * Nested for loops
 * Inverted pattern
 
