@@ -2,10 +2,10 @@
 
 This folder contains pattern programs created to improve understanding of loops.
 
-## Topics Covered
+## Problems Practiced
 * Pyramid pattern
 
-## Concepts Practiced
+## Concepts Covered
 * Nested for loops
 * Inverted pattern
 
