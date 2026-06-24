@@ -2,13 +2,13 @@
 
 This folder contains Java programs that help build a strong foundation in array concepts and problem-solving.
 
-## Topics Covered
+## Problems Practiced
    * Count Frequency of Elements
    * Linear Search
    * Find Maximum and Minimum Element
    * Find Second Largest Element
 
-## Concepts Practiced
+## Concepts Covered
    * Array Traversal
    * Element Comparison
    * Searching Algorithms
