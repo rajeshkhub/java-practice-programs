@@ -1,16 +1,13 @@
 # Java Patterns
 
-This folder contains pattern programs created to improve understanding of:
+This folder contains pattern programs created to improve understanding of loops.
 
-- Loops (`for`, `while`)
-- Nested loops
-- Conditional statements
-- Pattern logic
-- Problem-solving skills
-- Console output formatting
+##Concepts practiced
+*Pyramid pattern
 
 ## Topics Covered
-- Pyramid Patterns
+* Nested for loops
+* Inverted pattern
 
 ## Goal
 Build strong logic and loop mastery before moving to Arrays, DSA, and advanced problem-solving.
