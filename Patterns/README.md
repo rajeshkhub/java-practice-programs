@@ -2,8 +2,8 @@
 
 This folder contains pattern programs created to improve understanding of loops.
 
-## Concepts practiced
-*Pyramid pattern
+## Concepts Practiced
+* Pyramid pattern
 
 ## Topics Covered
 * Nested for loops
