@@ -36,6 +36,11 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | MinMax.java             ---> Returns minimum / maximum number in an array.                     |
 | SecondLargeNum.java     ---> Finds second largest number in an array.                          |
 
+## Patterns
+| File                    ---> What it does                                                      |
+|------------------------------------------------------------------------------------------------|
+| Pyramid.java            ---> Prints Pyramid shape based on given height.                       |
+
 ## How to Run
 1. Clone the repo: `git clone https://github.com/rajeshkhub/java-practice-programs`
 2. Open in any Java IDE (Eclipse, IntelliJ, VS Code)
