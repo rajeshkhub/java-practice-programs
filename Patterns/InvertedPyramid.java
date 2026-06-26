@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class InvertedPyramid {
 	public static void main(String[] args) {
-//Prints
+//Prints inverted pyramid for the given height.
 Scanner sc = new Scanner(System.in);
 		System.out.println("Enter height :");
 int height = sc.nextInt();
