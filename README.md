@@ -40,6 +40,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | File                    ---> What it does                                                      |
 |------------------------------------------------------------------------------------------------|
 | Pyramid.java            ---> Prints Pyramid shape based on given height.                       |
+| InvertedPyramid.java    ---> Prints Inverted Pyramid shape for given height.                   |
 
 ## How to Run
 1. Clone the repo: `git clone https://github.com/rajeshkhub/java-practice-programs`
