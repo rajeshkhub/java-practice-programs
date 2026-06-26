@@ -4,6 +4,7 @@ This folder contains pattern programs created to improve understanding of loops.
 
 ## Problems Practiced
 * Pyramid pattern
+* Inverted Pyramid
 
 ## Concepts Covered
 * Nested for loops
