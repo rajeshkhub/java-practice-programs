@@ -7,8 +7,8 @@ This folder contains pattern programs created to improve understanding of loops.
 * Inverted Pyramid
 
 ## Concepts Covered
-* Nested for loops
 * Inverted pattern
+* Nested for loops
 
 ## Goal
 Build strong logic and loop mastery before moving to Arrays, DSA, and advanced problem-solving.
