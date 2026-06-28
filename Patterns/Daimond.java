@@ -1,4 +1,3 @@
-package testt;
 import java.util.Scanner;
 public class Daimond {
 	public static void main(String[] args) {
