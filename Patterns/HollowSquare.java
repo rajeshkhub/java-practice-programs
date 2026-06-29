@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class HollowSquare {
-
 	public static void main(String[] args) {
-    
+    // Prints Hollow Square pattern.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter height :");
 		int height = sc.nextInt();
