@@ -7,7 +7,6 @@ public class Daimond {
 		int height = sc.nextInt();
 		sc.close();
 		int mid = (height+1)/2;
-		
 		for(int i = 1; i <= height; i++) {
 			int level;
 			if(i <= mid) {
