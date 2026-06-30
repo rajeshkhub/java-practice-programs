@@ -40,6 +40,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | File                    ---> What it does                                                      |
 |------------------------------------------------------------------------------------------------|
 | Daimond.java            ---> Prints Daimond shape pattern using height variable.               |
+| HollowPyramid.java      ---> Prints Hollow Pyramid shape for given height.                     |
 | HollowSquare.java       ---> Prints Hollow Square shape.                                       |
 | InvertedPyramid.java    ---> Prints Inverted Pyramid shape for given height.                   |
 | Pyramid.java            ---> Prints Pyramid shape based on given height.                       |
