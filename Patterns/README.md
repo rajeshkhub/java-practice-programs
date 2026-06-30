@@ -8,6 +8,7 @@ This folder contains pattern programs created to improve understanding of loops.
 * Daimond shape pattern
 * Hollow Square
 * Hollow pyramid
+* Butterfly pattern
 
 ## Concepts Covered
 * Inverted pattern
