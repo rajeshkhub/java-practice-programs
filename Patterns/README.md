@@ -12,7 +12,10 @@ This folder contains pattern programs created to improve understanding of loops.
 ## Concepts Covered
 * Inverted pattern
 * Nested for loops
-* Iteration using a variable.
+* Iteration using a variable
+* for loops
+* if-else inside loops
+* row/column logic
 
 ## Goal
 Build strong logic and loop mastery before moving to Arrays, DSA, and advanced problem-solving.
