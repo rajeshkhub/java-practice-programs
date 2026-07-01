@@ -39,6 +39,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 ## Patterns
 | File                    ---> What it does                                                      |
 |------------------------------------------------------------------------------------------------|
+| Butterfly.java          ---> Prints Butterfly pattern.                                         |
 | Daimond.java            ---> Prints Daimond shape pattern using height variable.               |
 | HollowPyramid.java      ---> Prints Hollow Pyramid shape for given height.                     |
 | HollowSquare.java       ---> Prints Hollow Square shape.                                       |
