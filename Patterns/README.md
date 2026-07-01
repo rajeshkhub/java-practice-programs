@@ -9,6 +9,7 @@ This folder contains pattern programs created to improve understanding of loops.
 * Hollow Square
 * Hollow pyramid
 * Butterfly pattern
+* Pascal Triangle pattern
 
 ## Concepts Covered
 * Inverted pattern
