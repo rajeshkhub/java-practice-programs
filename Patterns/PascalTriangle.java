@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class PascalTrangle {
 	public static void main(String[] args) {
-    
+		// Pascal Triangle pattern.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter height :");
 		int height = sc.nextInt();
