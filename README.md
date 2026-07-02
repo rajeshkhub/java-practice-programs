@@ -16,6 +16,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 ### Strings
 | File                    ---> What it does                                                      |
 |------------------------------------------------------------------------------------------------|
+| AnagramCheck.java       ---> Checks whther two strings are Anagram or not.                     |
 | CountingDigits.java     ---> Counts number of digits in a number.                              |
 | ReverseString.java      ---> Returns string after reversing.                                   |
 | VowelCount.java         ---> Counts vowels in a string.                                        |
