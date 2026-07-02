@@ -44,6 +44,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | HollowPyramid.java      ---> Prints Hollow Pyramid shape for given height.                     |
 | HollowSquare.java       ---> Prints Hollow Square shape.                                       |
 | InvertedPyramid.java    ---> Prints Inverted Pyramid shape for given height.                   |
+| PascalTriangle.java     ---> Prints Pascal Triangle pattern.                                   |
 | Pyramid.java            ---> Prints Pyramid shape based on given height.                       |
 
 ## How to Run
