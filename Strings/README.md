@@ -6,6 +6,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * Count Digits in a String
 * Reverse String
 * Vowel Count
+* Anagram check
 
 ## Concepts Covered
 * String Traversal
