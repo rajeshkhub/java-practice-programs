@@ -25,3 +25,5 @@ public class AnagramCheck {
 		}
 		if(found) System.out.println("Anagram");
 		else System.out.println("Not anagram");
+	}
+}
