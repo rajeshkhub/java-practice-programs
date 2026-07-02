@@ -15,6 +15,8 @@ This folder contains Java programs that focus on string manipulation, character 
 * Character Counting
 * Conditional Logic
 * Iterative Problem Solving
+* Character frequency
+* Case insensitive comparison
 
 ## Goal
 The purpose of these programs is to strengthen understanding of strings, improve text-processing skills, and build a foundation for advanced string algorithms and problem solving.
