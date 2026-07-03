@@ -18,6 +18,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 |------------------------------------------------------------------------------------------------|
 | AnagramCheck.java       ---> Checks whther two strings are Anagram or not.                     |
 | CountingDigits.java     ---> Counts number of digits in a number.                              |
+| DuplicateCharRemover.java---> Removes duplicate characters in a string.                        |
 | ReverseString.java      ---> Returns string after reversing.                                   |
 | VowelCount.java         ---> Counts vowels in a string.                                        |
 
