@@ -16,6 +16,8 @@ This folder contains Java programs that focus on fundamental programming concept
 * User Input Handling
 * Number Comparison
 * Basic Mathematical Logic
+* Switch cases
+* Try-Catch exception handling
 
 ## Goal
 The purpose of these programs is to build a strong foundation in Java programming, develop logical thinking, and prepare for more advanced topics such as loops, arrays, strings, and Data Structures & Algorithms.
