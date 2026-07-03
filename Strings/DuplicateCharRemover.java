@@ -1,4 +1,9 @@
-String word = sc.next();
+import java.util.Scanner;
+public class DuplicateCharRemover {
+	public static void main(String[] args) {
+		// Removes duplicate characters in given string using stringbuilder.
+		Scanner sc = new Scanner(System.in);
+		String word = sc.next();
 		sc.close();
 		StringBuilder sb = new StringBuilder(word);
 		for(int i = 0; i < sb.length(); i++) {
@@ -10,3 +15,5 @@ String word = sc.next();
 			}
 		}
 		System.out.print(sb);
+	}
+}
