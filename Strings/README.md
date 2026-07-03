@@ -7,6 +7,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * Reverse String
 * Vowel Count
 * Anagram check
+* Duplicate Characters remover
 
 ## Concepts Covered
 * String Traversal
@@ -17,6 +18,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * Iterative Problem Solving
 * Character frequency
 * Case insensitive comparison
+* StringBuilder
 
 ## Goal
 The purpose of these programs is to strengthen understanding of strings, improve text-processing skills, and build a foundation for advanced string algorithms and problem solving.
