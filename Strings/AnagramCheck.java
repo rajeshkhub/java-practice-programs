@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class AnagramCheck {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -20,10 +20,10 @@ public class AnagramCheck {
 						}
 					}
 				}
-				if(!found) break;                                //checks if found is false 
+				if(!found) break;                                //checks if found is false(found becomes false if any element doesnt match) and breaks the loop.
 			}
 		}
-		String result = (found)? "Anagrams" : "Not Anagrams";
+		String result = (found)? "Anagrams" : "Not Anagrams";       //Generates result using terinary operator.
 		System.out.println("The given two strings are "+result);
 	}
 }
