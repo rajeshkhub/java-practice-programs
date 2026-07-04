@@ -1,18 +1,16 @@
 import java.util.Scanner;
 class VowelCount {
 	public static void main(String[] args) {
-		// Counts number of vowels in a string.
+																				// Counts number of vowels in a string.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter any string/word : ");
-			String word1 = sc.nextLine();
-			String word2 = word1.toLowerCase();
+			String word = sc.nextLine().toLowerCase();							//Turns the input string into lower case.
 			int count = 0;
-			char[] a = word2.toCharArray();       //String becomes array of characters
-			for(char b : a) {                                               //for each loop
-				if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u') {         
-				c++;
+			char[] letters = word.toCharArray();       							//String becomes array of characters.
+			for(char vowels : letters) {                                        //for each loop.
+				if(vowels == 'a' || vowels == 'e' || vowels == 'i' || vowels == 'o' || vowels == 'u') {         //Compares characters with vowels.
+				count++;														//count increment.
 				}
-				else {}
 			}
 			System.out.println("Number of vowels in the given string : "+count);
 			sc.close();
