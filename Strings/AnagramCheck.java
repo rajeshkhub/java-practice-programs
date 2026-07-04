@@ -1,10 +1,8 @@
 import java.util.Scanner;
 public class AnagramCheck {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		
-		// Checks given two words are Anagram or not.
-		
+																	   // Checks given two words are Anagrams or not.
+		Scanner sc = new Scanner(System.in);                                                          
 		System.out.println("Enter two strings : ");
 		String word = sc.next().toLowerCase();
 		String word2 = sc.next().toLowerCase();
@@ -27,5 +25,6 @@ public class AnagramCheck {
 		}
 		String result = (found)? "Anagrams" : "Not Anagrams";      		 //Generates result using terinary operator.
 		System.out.println("The given two strings are "+result);
+		
 	}
 }
