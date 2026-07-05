@@ -6,8 +6,7 @@ public class CountingDigits {
 		System.out.println("Enter your number : ");
 		int num = sc.nextInt();
 																// using string method
-		/*
-		 * String a = sc.next();
+		/*String a = sc.next();
 		 * System.out.println("Number of digits in the number are : "+a.length());
 		 */
 		sc.close();
