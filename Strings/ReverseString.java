@@ -4,7 +4,7 @@ public class ReverseString {
 																	// Returns reversed form of a word by reversing it using String builder / for loop.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a string : ");
-		String word = sc.nextLine();
+		String word = sc.next();
 		sc.close();
 		StringBuilder sb = new StringBuilder(word);  				//Assigning string word to StringBuilder constructor.
 		System.out.print("Now your string is in reverse gear : ");
