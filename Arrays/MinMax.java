@@ -1,7 +1,7 @@
 import java.util.*;
 public class MinMax {
 	public static void main(String[] args) {
-		// Finds Minimum and Maximum numbers in array.
+																									// Finds Minimum and Maximum numbers in array.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the size of array : ");
 		int size = sc.nextInt();
@@ -16,7 +16,7 @@ public class MinMax {
 		}
 		while(true) {
 			System.out.println("\nChoose your option : \n1. Maximum element \n2. Minimum element");
-			//MAX
+																									//MAX
 			int choice = sc.nextInt();
 			if(choice == 1) { int max = array[0];
 			for(int i = 0; i < array.length;i++) {
@@ -25,7 +25,7 @@ public class MinMax {
 				}
 			}
 			System.out.println("\nMax of the array : "+max); break;}
-				//MIN
+																									//MIN
 			else if(choice == 2) {int min = array[0];
 			for(int i = 0 ; i < array.length ;i++) {
 				if(array[i] < min) {
