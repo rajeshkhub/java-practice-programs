@@ -8,26 +8,28 @@ public class Fibonacci {
 		sc.close();
 		int first = 0;
 		int second = 1;
-		if(terms == 1){
-			System.out.print("The fibonacci sequence : "+first);					
-		}
-		else System.out.print("The fibonacci sequence : "+first+" "+second+" ");
+		if(terms == 0) System.out.print("No terms to display.");					
+		else if(terms == 1) System.out.print("The fibonacci sequence : "+first);
 																					//Using while loop.
-		/*int num = 2;
-		while(num <= terms-1) {       												
+		/*else{
+		System.out.print("The fibonacci sequence : ");
+		while(terms > 0) {       
+			System.out.print(first+" ");
 			int temp = first + second;
 			first = second;
 			second = temp;
-			System.out.print(temp+" ");
-			num++;
+			terms--;
+		}
 		}*/
 																					//Using For loop.
-		System.out.print(first+" "+second);
-		for(int i = 1; i <= terms; i++) {
+		else { 
+			System.out.print("The fibonacci sequence : ");
+			for(int i = 1; i <= terms; i++) {
+			System.out.print(first+" ");
 			int temp = first + second;
-			System.out.print(" "+temp);
 			first = second;
 			second = temp;
+			}
 		}
 	}
 }
