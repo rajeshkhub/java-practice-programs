@@ -3,8 +3,8 @@ public class LargestNum {
 	public static void main(String[] args) {
 																									// Finds largest/ maximum number in three numbers.
            Scanner sc = new Scanner(System.in);
-           while(true) {																			// While loop.
-			   try { 																				// Try block.
+           while(true) {																			// While loop to continue program.
+			   try { 																				// Try block throws exception.
 				   System.out.println("Enter three numbers : ");
 				   int num1 = sc.nextInt();
 				   int num2 = sc.nextInt();
