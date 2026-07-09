@@ -24,9 +24,9 @@ public class LinearSearch {
                          break;
 						 }
                }
-   if(!found){																			// Condition if target is not found.
-	   System.out.println("Element not found in the list.");
-   }
-   sc.close();
+		if(!found){																			// Condition if target is not found.
+			System.out.println("Element not found in the list.");
+		}
+		sc.close();
 	}
 }
