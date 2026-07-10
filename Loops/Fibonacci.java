@@ -10,7 +10,7 @@ public class Fibonacci {
 		int second = 1;
 		if(terms == 0) System.out.print("No terms to display.");					
 		else if(terms == 1) System.out.print("The fibonacci sequence : "+first);
-																					//Using while loop.
+																					// Using while loop.
 		/*else{
 		System.out.print("The fibonacci sequence : ");
 		while(terms > 0) {       
@@ -21,7 +21,7 @@ public class Fibonacci {
 			terms--;
 		}
 		}*/
-																					//Using For loop.
+																					// Using For loop.
 		else { 
 			System.out.print("The fibonacci sequence : ");
 			for(int i = 1; i <= terms; i++) {
