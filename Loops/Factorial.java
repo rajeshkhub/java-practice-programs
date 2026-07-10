@@ -10,7 +10,7 @@ public class Factorial {
 			System.out.println("The factorial of "+num+" is : 1");
 		}
 		int num1 = 1;
-																		//Using While loop.
+																		// Using While loop.
 		/*int num2 = num;
 		while(num > 0) {
 		 num1 *= num;
@@ -18,7 +18,7 @@ public class Factorial {
 		}
 		System.out.println("The factorial of "+num2+" is : "+num1);
 		*/
-																		//Using For loop.
+																		// Using For loop.
 		for(int i = num; i > 1; i--) {
 			num1 *= i;
 		}
