@@ -6,6 +6,7 @@ public class AnagramCheck {
 		System.out.println("Enter two strings : ");
 		String word = sc.next().toLowerCase();
 		String word2 = sc.next().toLowerCase();
+		sc.close();
 		boolean found = false;
 		boolean[] visited = new boolean[word2.length()];               // Boolean array to store visited or not, in indexes parallel to the second string indexes.
 		if(word.length() == word2.length()) {                          // Checks whether the two strings have equal lenghts.
