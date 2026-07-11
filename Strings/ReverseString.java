@@ -6,12 +6,13 @@ public class ReverseString {
 		System.out.println("Enter a string : ");
 		String word = sc.next();
 		sc.close();
-		StringBuilder sb = new StringBuilder(word);  				//Assigning string word to StringBuilder constructor.
+		StringBuilder sb = new StringBuilder(word);  				// Assigning string word to StringBuilder constructor.
 		System.out.print("Now your string is in reverse gear : ");
-																	//or using for loop method.
-		/*for(int i = word.length()-1; i >= 0; i--) {				//Loop starts from last index of string word.
-			System.out.print(word.charAt(i));						//Prints characters of word from last index.
+																	// Or using for loop method.
+		/*for(int i = word.length()-1; i >= 0; i--) {				// Loop starts from last index of string word.
+			System.out.print(word.charAt(i));						// Prints characters of word from last index.
 		}*/
-		System.out.println(sb.reverse()); 							//stringbuilder reverse method.
+		
+		System.out.println(sb.reverse()); 							// Stringbuilder reverse method.
 	}
 }
