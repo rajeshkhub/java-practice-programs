@@ -8,8 +8,8 @@ public class CountingDigits {
 		sc.close();
 																// Storing input in string variable.
 		/*String a = sc.next();
-		 * System.out.println("Number of digits in the number are : "+a.length());
-		 */
+		System.out.println("Number of digits in the number are : "+a.length());
+		*/
 																// Using string methods.
 		/*int length = String.valueOf(num).length();			// Converts int num variable into string and generates the length of it.
 		System.out.println("No.of digits : "+length);
