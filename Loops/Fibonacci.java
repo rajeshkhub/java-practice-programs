@@ -19,16 +19,16 @@ public class Fibonacci {
 			first = second;
 			second = temp;
 			terms--;
-		}
+			}
 		}*/
 																					// Using For loop.
 		else { 
 			System.out.print("The fibonacci sequence : ");
 			for(int i = 1; i <= terms; i++) {
-			System.out.print(first+" ");
-			int temp = first + second;
-			first = second;
-			second = temp;
+				System.out.print(first+" ");
+				int temp = first + second;
+				first = second;
+				second = temp;
 			}
 		}
 	}
