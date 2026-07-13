@@ -24,7 +24,7 @@ public class AnagramCheck {
 				if(!found) break;                                       // Checks if found is false(found becomes false if any element doesnt match) and breaks the loop.
 			}
 		}
-		String result = (found)? "Anagrams" : "Not Anagrams";      		 // Generates result using terinary operator.
+		String result = (found)? "Anagrams" : "Not Anagrams";      		// Generates result using terinary operator.
 		System.out.println("The given two strings are "+result);
 		
 	}
