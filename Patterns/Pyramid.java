@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Pyramid {
 	public static void main(String[] args) {
-																//Pyramid pattern.
+																// Pyramid pattern.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Pyramid height : ");
 		int height = sc.nextInt();								// Height of the pattern.
