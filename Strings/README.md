@@ -8,6 +8,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * Vowel Count
 * Anagram check
 * Duplicate Characters remover
+* First non repeating character finder
 
 ## Concepts Covered
 * String Traversal
