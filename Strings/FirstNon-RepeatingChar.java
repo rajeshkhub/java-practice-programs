@@ -1,4 +1,8 @@
-//First non repeating character
+import java.util.*;
+public class StrIngs2 {
+	public static void main(String[] args) {
+		//First non repeating character
+		Scanner sc = new Scanner(System.in);
 		BOOLEAN FOUND = FALSE;
 		FOR(INT I = 0; I < WORD.LENGTH(); I++) {
 			FOUND = FALSE;
