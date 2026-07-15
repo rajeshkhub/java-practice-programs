@@ -9,6 +9,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * Anagram check
 * Duplicate Characters remover
 * First non repeating character finder
+* String compression
 
 ## Concepts Covered
 * String Traversal
