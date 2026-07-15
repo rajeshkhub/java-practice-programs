@@ -13,7 +13,7 @@ public class StringCompression {
 			for(int j = num; j < word.length(); j++) {	// Inner loop starts with index of num value.
 				if(word.charAt(i) == word.charAt(j)) {	// Comparing characters.
 					count++;							// Count increment if characters are same.
-					num = j+2;
+					num = j+2;							// num gets updated index to start with.
 				}
 				else {
 					num = j+1;
