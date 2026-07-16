@@ -6,6 +6,7 @@ public class StringCompression {
 		System.out.println("Enter a string : ");
 		String word = sc.next();
 		int num = 1;									// Used to store index to start with new group of characters.
+		System.out.print("String after compressing : ");
 		
 		for(int i = 0; i < word.length(); i++) {		// Outer loop starts with 0 index.
 			int count = 1;								// Used to count the number of consecutive repeating characters.
