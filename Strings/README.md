@@ -10,6 +10,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * Duplicate Characters remover
 * First non repeating character finder
 * String compression
+* Longest Word in the sentence
 
 ## Concepts Covered
 * String Traversal
