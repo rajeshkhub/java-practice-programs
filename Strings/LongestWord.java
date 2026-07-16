@@ -13,7 +13,7 @@ public class LongestWord {
 			  oneWord = word;						// Stores longest word.
 		  }
 	  }
-	  System.out.println(oneWord);
+	  System.out.println("Longest word in the sentence : "+oneWord);
 	  sc.close();
   }
 }
