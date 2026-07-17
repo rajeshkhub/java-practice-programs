@@ -20,6 +20,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | CountingDigits.java     ---> Counts number of digits in a number.                              |
 | DuplicateCharRemover.java---> Removes duplicate characters in a string.                        |
 | FirstNonRepeatingChar.java---> Finds first non repeating character in a string.                |
+| LongestWord.java         ---> Finds longest word in a sentence.                                |
 | ReverseString.java      ---> Returns string after reversing.                                   |
 | StringCompression.java  ---> Compresses string by replacing consecutive repeated characters.   |
 | VowelCount.java         ---> Counts vowels in a string.                                        |
