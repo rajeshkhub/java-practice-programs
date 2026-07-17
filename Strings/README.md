@@ -11,6 +11,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * First non repeating character finder
 * String compression
 * Longest Word finder
+* String rotation check
 
 ## Concepts Covered
 * String Traversal
