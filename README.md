@@ -23,6 +23,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | LongestWord.java         ---> Finds longest word in a sentence.                                |
 | ReverseString.java      ---> Returns string after reversing.                                   |
 | StringCompression.java  ---> Compresses string by replacing consecutive repeated characters.   |
+| StringRotationCheck.java  ---> Checks if a string is rotation of other string.                 |
 | VowelCount.java         ---> Counts vowels in a string.                                        |
 
 ### Loops
