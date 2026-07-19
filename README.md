@@ -14,17 +14,18 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | SwapingNum.java         ---> Swaps two numbers.                                                |
 
 ### Strings
-| File                    ---> What it does                                                      |
-|------------------------------------------------------------------------------------------------|
-| AnagramCheck.java       ---> Checks whther two strings are Anagram or not.                     |
-| CountingDigits.java     ---> Counts number of digits in a number.                              |
-| DuplicateCharRemover.java---> Removes duplicate characters in a string.                        |
-| FirstNonRepeatingChar.java---> Finds first non repeating character in a string.                |
-| LongestWord.java         ---> Finds longest word in a sentence.                                |
-| ReverseString.java      ---> Returns string after reversing.                                   |
-| StringCompression.java  ---> Compresses string by replacing consecutive repeated characters.   |
-| StringRotationCheck.java  ---> Checks if a string is rotation of other string.                 |
-| VowelCount.java         ---> Counts vowels in a string.                                        |
+| File                    ---> What it does                                                                   |
+|-------------------------------------------------------------------------------------------------------------|
+| AnagramCheck.java       ---> Checks whther two strings are Anagram or not.                                  |
+| CountingDigits.java     ---> Counts number of digits in a number.                                           |
+| DuplicateCharRemover.java---> Removes duplicate characters in a string.                                     |
+| FirstNonRepeatingChar.java---> Finds first non repeating character in a string.                             |
+| LongestWord.java         ---> Finds longest word in a sentence.                                             |
+| ReverseString.java      ---> Returns string after reversing.                                                |
+| StringCompression.java  ---> Compresses string by replacing consecutive repeated characters.                |
+| StringRotationCheck.java  ---> Checks if a string is rotation of other string.                              |
+| ToggleCase.java         ---> Converts Uppercase character to lowercase and lowercase character to uppercase.|
+| VowelCount.java         ---> Counts vowels in a string.                                                     |
 
 ### Loops
 | File                    ---> What it does                                                      |
