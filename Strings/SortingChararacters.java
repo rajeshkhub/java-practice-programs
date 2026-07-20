@@ -1,4 +1,8 @@
-// Character sorting
+import java.util.*;
+public class SortingCharacters {
+	public static void main(String[] args) {
+															// Character sorting
+		Scanner sc = new Scanner(System.in);
 		String word = sc.next();
 		char[] letters = word.toCharArray();
 		for(int i = 0; i < letters.length; i++) {
