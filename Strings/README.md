@@ -13,6 +13,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * Longest Word finder
 * String rotation check
 * Toggle case
+* Sorting characters in a string
 
 ## Concepts Covered
 * String Traversal
