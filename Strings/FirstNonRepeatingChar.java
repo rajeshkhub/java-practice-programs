@@ -11,7 +11,7 @@ public class FirstNonRepeatingChar {
 			found = true;
 			
 			for(int j = 0; j < word.length(); j++) {							// Inner for loop to iterate over word by comparing i and j index character.
-				if(i == j) continue;											// skips if both i and j or on the same character.
+				if(i == j) continue;											// Skips if both i and j or on the same character.
 				if(Character.toLowerCase(word.charAt(i)) == Character.toLowerCase(word.charAt(j))) {
 					found = false;												// if condition becomes true then found will be false.
 					break;
