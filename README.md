@@ -22,6 +22,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | FirstNonRepeatingChar.java---> Finds first non repeating character in a string.                             |
 | LongestWord.java         ---> Finds longest word in a sentence.                                             |
 | ReverseString.java      ---> Returns string after reversing.                                                |
+| SortingCharacters.java  ---> Sorting characters in a string.                                                |
 | StringCompression.java  ---> Compresses string by replacing consecutive repeated characters.                |
 | StringRotationCheck.java  ---> Checks if a string is rotation of other string.                              |
 | ToggleCase.java         ---> Converts Uppercase character to lowercase and lowercase character to uppercase.|
