@@ -7,13 +7,16 @@ public class CountFrequency {
 		int size = sc.nextInt();
 		int box[] = new int[size];								// Assigning size to the box array.
 		System.out.println("Enter elements :");
+		
 		for(int i = 0; i < size; i++) {							// For loop to insert input integers into the array.
 			box[i] = sc.nextInt();
 		}
 		sc.close();
+		
 		for(int i = 0; i < box.length; i++) {					// For loop starts from 0 index.
 			if(box[i] == -1) continue;							// Condition to skip elements marked as "-1". 
 			int count = 1;
+			
 			for(int j = i+1; j < box.length; j++) {				// Nested for loop starts from index 1.
 				if(box[i] == box[j]) {
 					count++;									// Count increment if above condition is true.
