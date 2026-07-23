@@ -42,6 +42,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | CountFrequency.java     ---> Counts number of occurence of a number.                           |
 | LinearSearch.java       ---> Finds the number in an array and returns the index of the number. |
 | MinMax.java             ---> Returns minimum / maximum number in an array.                     |
+| ReverseArray.java       ---> Reverses input array.                                             |
 | SecondLargeNum.java     ---> Finds second largest number in an array.                          |
 
 ## Patterns
