@@ -21,9 +21,7 @@ public class MinMax {
 			if(choice == 1) {
 				int max = array[0];
 				for(int i = 0; i < array.length;i++) {
-					if(array[i] > max) {
-						max = array[i];
-					}
+					if(array[i] > max) max = array[i];
 				}
 				System.out.println("\nMax of the array : "+max);
 				break;
@@ -32,16 +30,12 @@ public class MinMax {
 			else if(choice == 2) {
 				int min = array[0];
 				for(int i = 0 ; i < array.length ;i++) {
-					if(array[i] < min) {
-						min = array[i];
-					}
+					if(array[i] < min) min = array[i];
 				}
 				System.out.println("\nMin of the array : "+min);
 				break;
 			}
-			else {
-				System.out.println("Invalid input!");
-			}
+			else System.out.println("Invalid input!");
 		}
 		sc.close();
 	}
