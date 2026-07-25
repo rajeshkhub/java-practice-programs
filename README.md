@@ -44,6 +44,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | MinMax.java             ---> Returns minimum / maximum number in an array.                     |
 | ReverseArray.java       ---> Reverses input array.                                             |
 | SecondLargeNum.java     ---> Finds second largest number in an array.                          |
+| SecondSmallNum.java     ---> Finds second smallest number in an array.                         |
 
 ## Patterns
 | File                    ---> What it does                                                      |
