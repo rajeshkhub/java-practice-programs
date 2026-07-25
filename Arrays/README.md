@@ -8,6 +8,7 @@ This folder contains Java programs that help build a strong foundation in array 
    * Find Maximum and Minimum Element
    * Find Second Largest Element
    * Reverse array
+   * Second smallest element
 
 ## Concepts Covered
    * Array Traversal
