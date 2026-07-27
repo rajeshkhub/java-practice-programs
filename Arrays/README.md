@@ -1,6 +1,6 @@
 # Arrays
 
-This folder contains Java programs that help build a strong foundation in array concepts and problem-solving.
+This folder contains 1D and 2D arrays Java programs that help build a strong foundation in array concepts and problem-solving.
 
 ## Problems Practiced
    * Count Frequency of Elements
