@@ -1,4 +1,4 @@
-# Arrays
+# 1D - Arrays
 
 This folder contains 1D array Java programs that help build a strong foundation in array concepts and problem-solving.
 
