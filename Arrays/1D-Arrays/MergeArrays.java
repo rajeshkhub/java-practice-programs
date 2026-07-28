@@ -1,24 +1,29 @@
 import java.util.*;
 public class MergeArrays {
 	public static void main(String[] args) {
-		
+																// Merge two arrays.
 		Scanner sc = new Scanner(System.in);
-		int size = sc.nextInt();
-		int[] arr = new int[size];
-		for(int i = 0; i < size; i++) {
+		int size = sc.nextInt();								// Size of first array.
+		int[] arr = new int[size];								// First array "arr".
+		
+		for(int i = 0; i < size; i++)							// First for loop to insert elements into array arr.
 			arr[i] = sc.nextInt();
-		}
-int size2 = sc.nextInt();
-		int[] arr2 = new int[size2];
-		for(int i = 0; i < size2; i++)
+		
+		int size2 = sc.nextInt();								// Size of second array.
+		int[] arr2 = new int[size2];							// Second array "arr2".
+		
+		for(int i = 0; i < size2; i++)							// Second for loop to insert elements into array arr2.
 			arr2[i] = sc.nextInt();
-		int[] arr3 = new int[size+size2];
-		for(int i = 0; i < arr.length; i++) {
-			arr3[i] = arr[i];
-		}
-		for(int i = 0; i < arr2.length; i++) {
-			arr3[arr.length+i] = arr2[i];
-		}
-		System.out.println(Arrays.toString(arr3));
+		
+		int[] mergedArr = new int[size + size2];				// Third array "mergedArr" with combined sizes of first and second array.
+		
+		for(int i = 0; i < arr.length; i++)						// Third for loop to insert first array elements into result array. 
+			mergedArr[i] = arr[i];
+			
+		for(int i = 0; i < arr2.length; i++) 					// Fourth for loop to insert second array elements into result array from first arrays last next index.
+			mergedArr[arr.length+i] = arr2[i];
+	
+		System.out.println("After merging both arrays : "+Arrays.toString(mergedArr));
+		sc.close();
 	}
 }
