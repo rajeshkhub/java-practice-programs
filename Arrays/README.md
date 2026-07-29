@@ -3,12 +3,14 @@
 This folder contains 1D and 2D arrays Java programs that help build a strong foundation in array concepts and problem-solving.
 
 ## Problems Practiced
+# 1D - Arrays
    * Count Frequency of Elements
    * Linear Search
    * Find Maximum and Minimum Element
    * Find Second Largest Element
    * Reverse array
    * Second smallest element
+   * Merge two arrays
 
 ## Concepts Covered
    * Array Traversal
