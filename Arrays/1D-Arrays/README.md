@@ -8,6 +8,7 @@ This folder contains 1D array Java programs that help build a strong foundation 
    * Find Second Largest Element
    * Reverse array
    * Second smallest element
+   * MergeArrays
 
 ## Concepts Covered
    * Array Traversal
