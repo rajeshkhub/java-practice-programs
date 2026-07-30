@@ -1,16 +1,18 @@
 import java.util.*;
 public class RightRotation {
-public static void main(String[] args) {
+	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		int size = sc.nextInt();
 		int[] arr = new int[size];
-		for(int i = 0; i < size; i++) {
+		
+		for(int i = 0; i < size; i++)
 			arr[i] = sc.nextInt();
-		}
+			
 		int rotations = sc.nextInt();
 		rotations = rotations % size;
 		int[] arr2 = new int[size];
+		
 		for(int num : arr) {
 			if(rotations == size) {
 				rotations = 0;
@@ -21,6 +23,7 @@ public static void main(String[] args) {
 			}
 			rotations++;
 		}
-	System.out.println(Arrays.toString(arr2));
-}
+		
+		System.out.println(Arrays.toString(arr2));
+	}
 }
