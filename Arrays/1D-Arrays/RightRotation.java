@@ -26,7 +26,7 @@ public class RightRotation {
 			else if(rotations < size) {							// checks else if rotations less than size.
 				arr2[rotations] = num;							// If less then num element will be inserted into output array at index rotation.
 			}
-			rotations++;
+			rotations++;										// Rotations increment.
 		}
 		
 		System.out.println("Array after right rotation : "+Arrays.toString(arr2));
