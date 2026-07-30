@@ -1,7 +1,7 @@
 import java.util.*;
 public class RightRotation {
 	public static void main(String[] args) {
-		
+																// Right rotation of array.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter size of array : ");
 		int size = sc.nextInt();
