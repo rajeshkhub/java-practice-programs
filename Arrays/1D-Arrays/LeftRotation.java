@@ -1,7 +1,7 @@
 import java.util.*;
 public class LeftRotation {
   public static void main(String[] args) {
-										
+																		// Left rotation of array.
 	  Scanner sc = new Scanner(System.in);
 	  System.out.println("Enter size of array : ");
 	  int size = sc.nextInt();
@@ -13,6 +13,7 @@ public class LeftRotation {
 
 	  System.out.println("Enter number of rotations : ");
 	  int rotations = sc.nextInt();
+	  sc.close();
 	  rotations = rotations % size;
 	  int[] arr2 = new int[size];
 	  
@@ -27,6 +28,5 @@ public class LeftRotation {
 		  rotations--;
 	  }
 	  System.out.println("Array after left rotation : "+Arrays.toString(arr2));
-	  sc.close();
   }
 }
