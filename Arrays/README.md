@@ -12,6 +12,7 @@ This folder contains 1D and 2D arrays Java programs that help build a strong fou
    * Second smallest element
    * Merge two arrays
    * Right rotation of array
+   * Left rotation of array
 
 ## Concepts Covered
    * Array Traversal
