@@ -10,6 +10,7 @@ This folder contains 1D array Java programs that help build a strong foundation 
    * Second smallest element
    * Merge two arrays
    * Right rotation of array
+   * Left rotation of array
 
 ## Concepts Covered
    * Array Traversal
