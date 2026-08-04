@@ -3,11 +3,14 @@ public class DuplicatesRemover {
 	public static void main(String[] args) {
 														// Removes duplicates in a array.
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter array size : ");
 		int size = sc.nextInt();
 		int[] arr = new int[size];
-		for(int i = 0; i < size; i++) {
+		System.out.println("Enter array elements : ");
+		
+		for(int i = 0; i < size; i++)
 			arr[i] = sc.nextInt();
-		}
+		
 		sc.close();
 		int[] arr2 = new int[arr.length];
 		int fill = 0;
@@ -24,6 +27,6 @@ public class DuplicatesRemover {
 				fill++;
 			}
 		}
-		System.out.print(Arrays.toString(arr2));
+		System.out.print("After removing duplicates : "+Arrays.toString(arr2));
 	}
 }
