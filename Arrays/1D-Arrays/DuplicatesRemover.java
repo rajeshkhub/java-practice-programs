@@ -24,3 +24,5 @@ public class Array1D2 {
 				fill++;
 			}
 		}
+}
+}
