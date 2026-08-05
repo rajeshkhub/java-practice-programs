@@ -42,6 +42,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | LinearSearch.java       ---> Finds the number in an array and returns the index of the number. |
 | 1D - Arrays                                                                                    |
 | CountFrequency.java     ---> Counts number of occurence of a number.                           |
+| DuplicatesRemover.java  ---> Removes duplicates from array.                                    |
 | LeftRotation.java       ---> Returns left rotated array.                                       |
 | MergeArrays.java        ---> Merging two arrays.                                               |
 | MinMax.java             ---> Returns minimum / maximum number in an array.                     |
