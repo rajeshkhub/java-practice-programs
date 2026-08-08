@@ -14,6 +14,7 @@ This folder contains 1D and 2D arrays Java programs that help build a strong fou
    * Right rotation of array
    * Left rotation of array
    * Remove duplicates
+# 2D - Arrays
 
 ## Concepts Covered
    * Array Traversal
