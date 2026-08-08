@@ -4,11 +4,10 @@ public class FirstNonRepeatingChar {
 																				// First non repeating character finder.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a word/string : ");
-		String word = sc.next();
-		boolean found = true;													// boolean found used to find if there is any non repeating character.
+		String word = sc.next();													
 		
 		for(int i = 0; i < word.length(); i++) {								// for loop for iteration over word.
-			found = true;
+			boolean found = true;												// boolean found used to find if there is any non repeating character.
 			
 			for(int j = 0; j < word.length(); j++) {							// Inner for loop to iterate over word by comparing i and j index character.
 				if(i == j) continue;											// Skips if both i and j or on the same character.
