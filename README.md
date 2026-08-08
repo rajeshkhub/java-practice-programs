@@ -27,6 +27,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | StringRotationCheck.java  ---> Checks if a string is rotation of other string.                              |
 | ToggleCase.java         ---> Converts Uppercase character to lowercase and lowercase character to uppercase.|
 | VowelCount.java         ---> Counts vowels in a string.                                                     |
+| WordsCount.java         ---> Counts number of words in a sentence.                                          |
 
 ### Loops
 | File                    ---> What it does                                                      |
