@@ -14,6 +14,7 @@ This folder contains Java programs that focus on string manipulation, character 
 * String rotation check
 * Toggle case
 * Sorting characters in a string
+* Count words in sentence
 
 ## Concepts Covered
 * String Traversal
