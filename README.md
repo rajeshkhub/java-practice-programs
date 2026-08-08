@@ -51,6 +51,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | RightRotation.java      ---> Returns right rotated array.                                      |
 | SecondLargeNum.java     ---> Finds second largest number in an array.                          |
 | SecondSmallNum.java     ---> Finds second smallest number in an array.                         |
+| 2D - Arrays                                                                                    |
 
 ## Patterns
 | File                    ---> What it does                                                      |
