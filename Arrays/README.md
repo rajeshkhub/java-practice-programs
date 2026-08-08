@@ -17,6 +17,7 @@ This folder contains 1D and 2D arrays Java programs that help build a strong fou
 # 2D - Arrays
 
 ## Concepts Covered
+   * 1D arrays
    * Array Traversal
    * Element Comparison
    * Searching Algorithms
