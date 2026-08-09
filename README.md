@@ -70,6 +70,6 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 3. Run the file you want
 
 ## Currently Learning
-- Java fundamentals (loops, arrays, strings)
+- Java
 - Problem solving logic
-- OOP concepts (coming soon)
+- OOP concepts
