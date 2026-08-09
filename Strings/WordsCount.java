@@ -12,5 +12,7 @@ public class WordsCount {
 				count++;									// If the condition is true count increases.
 		}
 		System.out.println("Number of words are : "+count);
+															// Or using string methods.
+		//System.out.println(word.split("\\s+").length);
 	}
 }
