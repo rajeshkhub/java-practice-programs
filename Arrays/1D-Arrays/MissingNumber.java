@@ -16,3 +16,5 @@ public class MissingNumber {
 			num += (arr.length+1)-i;
 		}
 		System.out.print(num-sum);
+	}
+}
