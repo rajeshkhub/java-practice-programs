@@ -12,6 +12,7 @@ This folder contains 1D array Java programs that help build a strong foundation 
    * Right rotation of array
    * Left rotation of array
    * Remove duplicates
+   * Finding Missing number
 
 ## Concepts Covered
    * Array Traversal
