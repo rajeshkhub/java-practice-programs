@@ -47,6 +47,7 @@ A collection of Java programs I'm writing while learning Java fundamentals.
 | LeftRotation.java       ---> Returns left rotated array.                                       |
 | MergeArrays.java        ---> Merging two arrays.                                               |
 | MinMax.java             ---> Returns minimum / maximum number in an array.                     |
+| MissingNumber.java      ---> Finds the missing number from array containing numbers from 1 - N.|
 | ReverseArray.java       ---> Reverses input array.                                             |
 | RightRotation.java      ---> Returns right rotated array.                                      |
 | SecondLargeNum.java     ---> Finds second largest number in an array.                          |
