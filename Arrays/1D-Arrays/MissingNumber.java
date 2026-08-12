@@ -17,7 +17,7 @@ public class MissingNumber {
 			sum += arr[i];							// sum of all array numbers.
 			num += (arr.length+1)-i;				// sum of numbers 1 to (1 + array length).
 		}
-		System.out.print("Missing number is : "+num-sum);	// Print missing number.
+		System.out.print("Missing number is : "+(num-sum));	// Print missing number.
 		sc.close();									// Scanner close.
 	}
 }
